@@ -2,7 +2,7 @@
 
 ------
 
-This a plain C++ implementation of Daniel J. Bernstein's [Curve25519][1] Scalar Multiplication. This C++ program uses GNU GMP library for underlying arithmetic. Use the following command compile.
+This is a plain C++ implementation of Daniel J. Bernstein's [Curve25519][1] Scalar Multiplication. It uses GNU GMP library for underlying arithmetic. Use the following command to compile.
 
 ```bash
 g++ x25519.cpp -std=c++17 -lgmpxx -lgmp -o x25519
